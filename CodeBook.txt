@@ -1,0 +1,5 @@
+The 86 features summary measures contained in the “ds.txt” dataset are created from a subset of features in the “features.txt” file.
+
+Each feature that represents a mean or standard deviation is summarized as a mean for each subject and activity (defined in “activity.txt”).
+
+each feature measurement is normalized to [-1,1]. Each feature measurement summary is understood to be in standard gravity units or g’s.

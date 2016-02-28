@@ -69,3 +69,6 @@ rm(list=c("c.test","c.train","features","a.df","activity_labels"))
 
 mean_by_factors <- group_by(test_train, subject, activity) %>% summarize_each(funs(mean))
 
+# generate text file of dataset
+
+write.table(mean_by_factors, file="ds.txt", row.names=FALSE)
